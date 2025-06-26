@@ -1,0 +1,32 @@
+# Vivado generated files to ignore
+*.jou
+*.log
+*.str
+*.pb
+*.xml
+*.html
+*.zip
+*.backup
+
+# Simulation / implementation outputs
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.data/
+*.srcs/sources_1/bd/
+*.srcs/sources_1/ip/*/output_products/
+*.srcs/sources_1/ip/*/run/
+*.srcs/sources_1/ip/*/tmp/
+*.srcs/sources_1/ip/*/*.bd
+*.srcs/sources_1/ip/*/*.xml
+*.srcs/sources_1/ip/*/*.dcp
+
+# SDK / Vitis
+.sdk/
+.vitis/
+
+# xsim or xelab
+xsim.dir/
+webtalk/
