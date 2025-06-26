@@ -181,7 +181,7 @@ create_waiver -internal -user DDR4 -tags "1010162" -scope -type METHODOLOGY -id 
 
 create_interface -quiet interface_ddr4_0
 set_property interface interface_ddr4_0 [get_ports [list {c0_ddr4_dq[6]} {c0_ddr4_dm_dbi_n[0]} c0_ddr4_reset_n {c0_ddr4_dq[10]} {c0_ddr4_ba[0]} {c0_ddr4_dq[7]} {c0_ddr4_odt[0]} {c0_ddr4_cs_n[0]} {c0_ddr4_bg[0]} {c0_ddr4_adr[7]} {c0_ddr4_adr[6]} {c0_ddr4_dq[13]} {c0_ddr4_dq[12]} {c0_ddr4_dq[11]} {c0_ddr4_ba[1]} {c0_ddr4_dq[2]} {c0_ddr4_dq[0]} {c0_ddr4_adr[16]} {c0_ddr4_adr[15]} c0_sys_clk_n c0_sys_clk_p {c0_ddr4_dq[15]} {c0_ddr4_dq[14]} {c0_ddr4_adr[13]} {c0_ddr4_dq[3]} {c0_ddr4_dq[1]} {c0_ddr4_adr[8]} {c0_ddr4_adr[4]} {c0_ddr4_adr[1]} {c0_ddr4_adr[0]} {c0_ddr4_dq[9]} {c0_ddr4_dq[8]} {c0_ddr4_adr[14]} {c0_ddr4_adr[9]} {c0_ddr4_adr[11]} {c0_ddr4_adr[5]} {c0_ddr4_ck_t[0]} {c0_ddr4_dqs_t[1]} {c0_ddr4_dm_dbi_n[1]} {c0_ddr4_dq[4]} {c0_ddr4_cke[0]} {c0_ddr4_dqs_c[0]} {c0_ddr4_dqs_t[0]} {c0_ddr4_adr[10]} {c0_ddr4_adr[12]} {c0_ddr4_adr[3]} {c0_ddr4_adr[2]} {c0_ddr4_ck_c[0]} {c0_ddr4_dqs_c[1]} c0_ddr4_act_n {c0_ddr4_dq[5]}]]
-set_property PACKAGE_PIN AM8 [get_ports {c0_ddr4_adr[1]}]
+set_property PACKAGE_PIN AM8 [get_ports {c0_ddr4_adr[0]}]
 set_property PACKAGE_PIN AM9 [get_ports {c0_ddr4_adr[1]}]
 set_property PACKAGE_PIN AP8 [get_ports {c0_ddr4_adr[2]}]
 set_property PACKAGE_PIN AN8 [get_ports {c0_ddr4_adr[3]}]
